@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Movie App</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<form class="dropdown-area" id="form">
+				<div class="dropdown-1">
+					<label for="genre">Genre</label>
+					<select id="genre-dropdown" id="genre">
+						<option value="All">All</option>
+					</select>
+				</div>
+
+				<div class="dropdown-2">
+					<label for="year">Year</label>
+					<select id="year-dropdown" name="" id="year">
+						<option value="All">All</option>
+					</select>
+				</div>
+
+				<div class="dropdown-3">
+					<label for="lang">Language</label>
+					<select id="lang-dropdown" name="" id="lang">
+						<option value="All">All</option>
+					</select>
+				</div>
+
+				<div class="dropdown-4">
+					<label for="rating">Ratings</label>
+					<select id="rating-dropdown" class="ratings">
+						<option value="All">All</option>
+					</select>
+				</div>
+			</form>
+
+			<div class="movie-section">
+				<table class="table" id="table">
+					<th>
+						<tr>
+							<td>Rank</td>
+							<td>Movie</td>
+							<td>Year</td>
+						</tr>
+					</th>
+				</table>
+			</div>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>
